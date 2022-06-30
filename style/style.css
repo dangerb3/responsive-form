@@ -88,11 +88,12 @@ textarea {
     justify-content: space-between;
     align-items: center;
 
-    /* white-space: normal;
-    overflow-wrap: break-word; */
-
     cursor: pointer;
     transition: background-color 0.2s ease-out;
+}
+
+.accordion-content__header:hover {
+    color: #02818A;
 }
 
 .accordion-content__header::after {
@@ -115,8 +116,6 @@ textarea {
 
     transform: rotate(90deg);
 }
-
-.accordion-content__header:hover {}
 
 .accordion-content__item_hidden .accordion-content__header {}
 
